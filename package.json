@@ -1,0 +1,40 @@
+{
+  "name": "bixby-tokens-secret",
+  "version": "0.0.0",
+  "description": "Plugins supporting confidential token formats for use with bixby-tokens.",
+  "keywords": [
+    "security",
+    "token",
+    "assertion"
+  ],
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "http://jaredhanson.net/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bixbyjs/bixby-tokens-secret.git"
+  },
+  "bugs": {
+    "url": "http://github.com/bixbyjs/bixby-tokens-secret/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./app",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "make-node": "^0.3.0",
+    "mocha": "^2.0.0",
+    "chai": "^3.0.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/*.test.js"
+  }
+}
