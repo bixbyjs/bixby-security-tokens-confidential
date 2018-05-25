@@ -27,6 +27,12 @@
     }
   ],
   "main": "./app",
+  "assembly": {
+    "namespace": "tokens",
+    "components": [
+      "iron/token"
+    ]
+  },
   "dependencies": {
   },
   "devDependencies": {
