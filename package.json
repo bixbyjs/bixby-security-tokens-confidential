@@ -1,7 +1,7 @@
 {
   "name": "bixby-tokens-secret",
   "version": "0.0.0",
-  "description": "Plugins supporting confidential token formats for use with bixby-tokens.",
+  "description": "Confidential token plugins for use with bixby-tokens.",
   "keywords": [
     "security",
     "token",
