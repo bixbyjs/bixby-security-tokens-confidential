@@ -1,8 +1,10 @@
-exports = module.exports = function(key) {
+exports = module.exports = function(credentials) {
   // Load modules.
   var iron = require('tokens-iron');
   
-  return iron.unseal(key);
+  return iron.seal(credentials.get.bind(credentials));
 };
 
-exports['@require'] = [ '../common/key' ];
+exports['@require'] = [ 
+  'http://i.bixbyjs.org/security/CredentialsStore'
+];
