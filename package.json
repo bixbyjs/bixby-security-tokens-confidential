@@ -30,6 +30,7 @@
   "assembly": {
     "namespace": "tokens",
     "components": [
+      "fernet/token",
       "iron/token"
     ]
   },

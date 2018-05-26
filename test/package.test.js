@@ -8,7 +8,8 @@ describe('bixby-tokens-secret', function() {
     it('should have assembly metadata', function() {
       expect(json.assembly.namespace).to.equal('tokens');
       
-      expect(json.assembly.components).to.have.length(1);
+      expect(json.assembly.components).to.have.length(2);
+      expect(json.assembly.components).to.include('fernet/token');
       expect(json.assembly.components).to.include('iron/token');
     });
   });
