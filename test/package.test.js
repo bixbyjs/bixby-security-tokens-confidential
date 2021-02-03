@@ -1,6 +1,6 @@
 /* global describe, it, expect */
 
-describe('bixby-tokens-secret', function() {
+describe('bixby-security-tokens-confidential', function() {
   
   describe('package.json', function() {
     var json = require('../package.json');
