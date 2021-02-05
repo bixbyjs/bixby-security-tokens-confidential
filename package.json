@@ -28,14 +28,13 @@
   ],
   "main": "./app",
   "assembly": {
-    "namespace": "tokens",
+    "namespace": "security/tokens",
     "components": [
       "fernet/token",
-      "iron/token"
+      "iron"
     ]
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "make-node": "^0.3.0",
     "mocha": "^2.0.0",
